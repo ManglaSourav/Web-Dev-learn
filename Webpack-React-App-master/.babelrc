@@ -1,0 +1,16 @@
+/*
+.babelrc file to use the babel preset we installed and take care of the ES6 classes 
+and import statements in our code.
+*/
+// {
+//     "presets": [
+//         "env",
+//         "react"
+//     ]
+// }
+// {
+//   "presets": [
+//     "@babel/preset-env",
+//     "@babel/preset-react"
+//   ]
+// }
