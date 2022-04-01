@@ -1,0 +1,16 @@
+/* universal selector */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  /* 62.5% means 10px (16px *.625) (that define what 1rem is)(good to not change default browser default settings)*/
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+}

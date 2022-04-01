@@ -1,0 +1,68 @@
+.MuiToolbar-root {
+  background: white !important;
+}
+
+.brand {
+  color: black;
+}
+
+.brandIcon {
+  font-size: 100px;
+}
+
+.cardd {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+/* .viewCard {
+} */
+
+.displayInfo {
+  color: black;
+  /* text-align: center; */
+}
+
+.contactInfo {
+  margin-top: 2rem;
+  margin-left: 32rem;
+
+  text-align: center !important;
+}
+
+#contactInfo2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 6rem !important;
+}
+.contactInfobtn {
+  margin-top: 3rem;
+  margin-right: 32rem;
+}
+
+/* .makeStyles-root-1{
+  margin-top: 5rem;
+  margin-left:26rem;
+  text-align: center !important;
+} */
+
+.contactInfoHeading {
+  text-align: center;
+  color: rgb(134, 131, 131);
+}
+.sendMessageInfo {
+  margin-top: 2rem;
+  margin-left: 38rem;
+
+  text-align: center;
+}
+#sendMessageInfo2 {
+  text-align: center;
+  margin-top: 2rem;
+  /* margin-left:6rem !important */
+}
+.sendMessagebtn {
+  margin-top: 3rem;
+  margin-right: 38rem;
+}
+
+

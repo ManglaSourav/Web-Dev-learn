@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+.back {
+  background-color: transparent;
+}
+
+#showcase {
+  background-image: url("../assets/landing.jpg");
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+#setting-up {
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#setting-up strong {
+  font-family: cursive, serif;
+  font-size: 3rem;
+}
+.item1 {
+  align-self: flex-start;
+  padding-left: 7%;
+  margin-top: 3%;
+}
+.item2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 5%;
+}
+
+.nitem1 {
+  /* padding-right: 40%; */
+  font-family: "Montserrat", sans-serif, cursive, serif;
+  font-size: 16px;
+}
+
+#sidebar {
+  background-color: white;
+  margin: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 100px;
+}
+
+.propertyForm{
+  margin: 3rem;
+}
+.cardGrid {
+  display: flex;
+}
+.amenitiesList {
+  margin: 3rem;
+  margin-top: 1rem;
+}
+.contact {
+  margin: 3rem;
+}
+.propertyForm {
+  margin: 3rem;
+}
+.cardTitle{
+  display: flex;
+  justify-content: space-between
+}

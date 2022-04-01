@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Node App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="root">
+      <h2>Data</h2>
+      <div id="window">
+        <div id="output"></div>
+      </div>
+      <input id="message" type="text" placeholder="Number of lines" />
+      <button id="send">Send</button>
+    </div>
+    <script src="/sendData.js"></script>
+  </body>
+</html>
