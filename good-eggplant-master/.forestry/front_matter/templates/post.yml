@@ -1,0 +1,48 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the post
+  config:
+    required: true
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: The text shown just below the post title.
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- type: file
+  name: thumb_img_path
+  label: Featured Image
+  description: The image shown in the blog feed.
+- type: file
+  name: content_img_path
+  label: Alternative Featured Image
+  description: The image shown in the single post.
+- type: text
+  name: excerpt
+  label: Excerpt
+  description: The excerpt of the post displayed in the blog feed.
+- type: text
+  name: template
+  label: Template
+  hidden: true
+  default: post
+  config:
+    required: true
+pages:
+- src/pages/posts/2019-03-27-fragments-of-iceland.md
+- src/pages/posts/2019-03-24-japan.md
+- src/pages/posts/2019-03-10-grand-canyon.md
+- src/pages/posts/2018-01-23-the-ride-in-the-woods.md
+- src/pages/posts/2018-01-15-best-waves-surfing-spain.md
+- src/pages/posts/2018-01-11-fox-village-in-japan.md
+- src/pages/posts/2018-01-09-basic-rules-for-walking-in-the-mountains.md
+- src/pages/posts/2017-03-26-interior-designer.md
+- src/pages/posts/2016-08-22-working-from-home.md

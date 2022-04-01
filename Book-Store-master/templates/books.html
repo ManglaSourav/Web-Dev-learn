@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="../css/book.css" />
+<div class="book-wrapper">
+  <div
+    ng-repeat="book in books | filter:search | orderBy:'-title'"
+    ng-show="book.available"
+  >
+    <div class="card m-3 book-item" style="width: 21rem;">
+      <img
+        class="card-img-top"
+        ng-src="{{ book.thumbnailUrl }}"
+        alt="Card image cap"
+        width="200px"
+        height="200px"
+        style="margin:5px"
+      />
+      <div class="card-body">
+        <h5 class="card-title">
+          <strong>{{ book.title }}</strong>
+        </h5>
+        <!-- <p class="card-text"> -->
+        <span ng-repeat="name in book.authors">
+          <span>
+            {{ name }}
+            <span ng-if="!($index > book.authors.length+1)"> ,</span>
+          </span>
+        </span>
+      </div>
+      <div class="card-footer" style="text-align: center; margin-right: 5px">
+        <button
+          style="margin: 3px; width: 100%"
+          href="  "
+          class="btn btn-primary"
+          ng-click="buyBook(book)"
+        >
+          Buy
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
