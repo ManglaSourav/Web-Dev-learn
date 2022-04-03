@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 50px;
+}
+ul {
+  margin-left: 20px;
+}
+.tree li {
+  list-style-type: none;
+  margin: 10px 0 10px 10px;
+  position: relative;
+}
+.tree li:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 20px;
+  height: 15px;
+}
+.tree li:after {
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: -20px;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  width: 20px;
+  height: 100%;
+}
+.tree li:last-child:after {
+  display: none;
+}
+.tree li span {
+  display: block;
+  padding-left: 6px;
+  text-decoration: none;
+}
+
